@@ -10,7 +10,15 @@ import random
 
 
 corpus = """i love machine learning . i love generative ai .
-generative ai creates new text . machine learning learns from data ."""
+generative ai creates new textI have created an initial folder structure. Review and reorganize it into a clear knowledge management system that helps me track:
+
+Daily code changes and implementation logs
+Notes and learnings
+Questions and answers
+Architecture and flow diagrams
+Reference documents
+
+Also, create a Revision Notes section that consolidates all important notes, decisions, Q&A, diagrams, and key learnings into a single place for quick review and future revision. . machine learning learns from data ."""
 
 words = corpus.split()
 next_words: dict[str, Counter] = defaultdict(Counter)
@@ -44,4 +52,5 @@ if __name__ == "__main__":
     print("P(next | 'learning') =", predict_next("learning"))
     print("\nFive generations from 'i':")
     for i in range(1, 6):
+        print(f"  {i}. {generate('i')}")
         print(f"  {i}. {generate('i')}")

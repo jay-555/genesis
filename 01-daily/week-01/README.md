@@ -8,8 +8,8 @@
 | Day | Topic | Folder | Status |
 |---|---|---|---|
 | 1 | AI → ML → DL → GenAI → LLM; setup | [day-01](day-01/) | Completed |
-| 2 | Python basics: variables, strings | [day-02](day-02/) | In Progress |
-| 3 | Lists, dicts, sets, loops | day-03 | Not Started |
+| 2 | Python basics: variables, strings | [day-02](day-02/) | Completed |
+| 3 | Lists, dicts, sets, loops | [day-03](day-03/) | In Progress |
 | 4 | Functions, modules, pip, file I/O | day-04 | Not Started |
 | 5 | Classes, type hints | day-05 | Not Started |
 | 6 | P0 Text analyzer CLI + Weekly Test 1 | day-06 | Not Started |

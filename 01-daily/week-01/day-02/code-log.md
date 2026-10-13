@@ -12,7 +12,7 @@ Practice variables, strings, methods, and f-strings used constantly in GenAI wor
 ## Changes made
 | Time | File | Change | Why |
 |---|---|---|---|
-| Day 2 | `code/day2_string_drills.py` | Starter drills | Hands-on practice |
+| Day 2 | `code/day2_string_drills.py` | Ran drills | Hands-on practice |
 
 ## Commands run
 ```powershell
@@ -24,14 +24,18 @@ python .\01-daily\week-01\day-02\code\day2_string_drills.py
 ## Bugs / errors faced
 | Error | Cause | Fix |
 |---|---|---|
-| | | |
+| Expected unique=1, got 2 | Trailing `.` on some prompts | Learned: strip+lower ≠ full normalize; remove punctuation too |
 
 ## Result
-- [ ] Script runs
-- [ ] unique prompt count is 1
-- [ ] Answers filled in `qa.md`
+- [x] Script runs
+- [x] Output logged in `qa.md` (unique count 2 — explained)
+- [x] Answers filled in `qa.md`
+
+## Snippet worth keeping
+```python
+normalized = [p.strip().lower() for p in prompts]
+# Still may differ by punctuation: "pdf." vs "pdf"
+```
 
 ## Next steps
-- Fill `notes.md` takeaways
-- Answer Day 2 Q&A
-- Mentor grade → Day 3
+- Day 2 closed → Day 3 (lists, dicts, loops, word-frequency)

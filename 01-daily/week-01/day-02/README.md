@@ -1,14 +1,13 @@
-# Week 1 · Day 2
+# Week 1 · Day 2 ✅ Completed
 
 **Topic:** Python basics — variables, types, strings, f-strings  
-**Status:** In Progress  
-**Study time:** ~60–75 min
+**Closed:** 2026-10-13 · **Gate:** Pass → Day 3
 
 | File | Purpose |
 |---|---|
 | [notes.md](notes.md) | Concepts |
-| [qa.md](qa.md) | Check questions |
-| [code-log.md](code-log.md) | What you ran / fixed |
-| [code/](code/) | Practice scripts |
+| [qa.md](qa.md) | Graded Q&A |
+| [code-log.md](code-log.md) | Run log |
+| [code/day2_string_drills.py](code/day2_string_drills.py) | Drills |
 
-**Goal:** Comfortably manipulate text in Python — the skill you’ll use every GenAI week.
+**Mentor highlight:** `unique count: 2` taught that punctuation breaks “same text” after only strip/lower.

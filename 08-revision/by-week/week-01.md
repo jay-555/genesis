@@ -1,7 +1,7 @@
 # Revision — Week 01
 
 **Section:** A — Foundations  
-**Status:** In Progress (Day 1 ✅ · Day 2 open)  
+**Status:** In Progress (Day 1–2 ✅ · Day 3 open)  
 **Weekly test score:** — / 100  
 **Last updated:** 2026-10-13
 
@@ -32,7 +32,7 @@
 - GenAI weaknesses: exact math, private/fresh facts, guaranteed truth → later fixed by **tools / RAG / evals**
 
 **Days 2–6** _(fill as you complete)_
-- Day 2: Python strings …
+- Day 2: str/int/float/bool · indexing/slicing · f-strings · strip/lower; **punctuation still breaks uniqueness**
 - Day 3: collections & loops …
 - Day 4: functions, files, venv/pip …
 - Day 5: classes …
