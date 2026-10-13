@@ -1,0 +1,8 @@
+%% Week 1 Day 1 — how an LLM generates text
+
+flowchart LR
+  A[Context tokens] --> B[Model forward pass]
+  B --> C[Next-token probabilities]
+  C --> D[Sample one token]
+  D --> E[Append to context]
+  E --> A
